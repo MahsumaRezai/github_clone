@@ -6,10 +6,10 @@
 
 .contanier {
   display: grid;
-  grid-template-columns: 15%  80%; }
-
-body {
-  background: red; }
+  grid-template-columns: 15%  85%; }
 
 .main-content {
-  background: gray; }
+  background-image: url(../image/background.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover; }
