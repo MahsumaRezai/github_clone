@@ -4,4 +4,69 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+.main {
+    display: grid;
+    justify-content: center;
+    align-self: center;
 
+}
+.main-log {
+    width: 40%;
+    margin: 0% auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.main-form {
+    background-color: #f6f8fa;
+    width: 300px;
+    height: 250px;
+    border: 1px  solid gainsboro;
+    border-radius: 6px;
+    padding:16px;
+}
+// 
+.main-title {
+    &__title {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+     text-align: center;
+     color: gray;
+     padding-bottom: 15px;
+       
+
+    }
+}
+// form section
+.form {
+    display: grid;
+    grid-gap: 20px;
+}
+.form-email {
+    &__title {
+        display: block;
+        font-size: 15px;
+        color: #57606a;
+        padding-bottom: 10px;
+
+    }
+    &__inp {
+        flex-grow: 1;
+        width: 260px;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid gainsboro;
+    }
+   
+}
+//
+.button {
+    &__btn{
+        flex-grow: 1;
+        width: 260px;
+        height: 30px;
+        border-radius: 5px;
+        background: green;
+        border: 1px solid green;
+    }
+}
