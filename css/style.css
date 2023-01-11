@@ -4,35 +4,6 @@
   box-sizing: border-box;
   font-family: sans-serif; }
 
-.main {
-  display: grid;
-  justify-content: center;
-  align-self: center; }
-
-.main-log {
-  width: 30%;
-  margin: 0% auto;
-  padding-top: 40px;
-  padding-bottom: 30px; }
-
-.main-form {
-  background-color: #f6f8fa;
-  width: 300px;
-  height: 250px;
-  border: 1px  solid gainsboro;
-  border-radius: 6px;
-  padding: 16px; }
-
-.main-title__title {
-  font-size: 24px;
-  font-weight: 1;
-  letter-spacing: -0.5px;
-  text-align: center;
-  color: #57606a;
-  padding-bottom: 15px;
-  font-family: sans-serif;
-  text-shadow: none; }
-
 .form {
   display: grid;
   grid-gap: 20px; }
@@ -120,3 +91,32 @@
   .links__new:hover {
     text-decoration-line: underline;
     color: #0969DA; }
+
+.main {
+  display: grid;
+  justify-content: center;
+  align-self: center; }
+
+.main-log {
+  width: 30%;
+  margin: 0% auto;
+  padding-top: 40px;
+  padding-bottom: 30px; }
+
+.main-form {
+  background-color: #f6f8fa;
+  width: 300px;
+  height: 250px;
+  border: 1px  solid gainsboro;
+  border-radius: 6px;
+  padding: 16px; }
+
+.main-title__title {
+  font-size: 24px;
+  font-weight: 1;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #57606a;
+  padding-bottom: 15px;
+  font-family: sans-serif;
+  text-shadow: none; }

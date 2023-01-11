@@ -1,0 +1,112 @@
+// form section
+.form {
+    display: grid;
+    grid-gap: 20px;
+}
+.form-email {
+    &__title {
+        display: block;
+        font-size: 13px;
+        color: #57606a;
+        padding-bottom: 10px;
+
+    }
+    &__inp {
+        flex-grow: 1;
+        width: 260px;
+        height: 33px;
+        border-radius: 5px;
+        border: 1px solid gainsboro;
+    }
+}
+#input:hover {
+    border: 1px solid #0969DA;
+
+}
+
+.button {
+    &__btn{
+        flex-grow: 1;
+        width: 260px;
+        height: 33px;
+        border-radius: 5px;
+        background:#30a14e;
+        border: 1px solid #30a14e;
+
+    }
+   &__link {
+       text-decoration: none;
+        color: white;
+        font-size: 14px;
+   }
+}
+.password {
+    display: flex;
+    justify-content: space-between;
+&__title {
+    font-size: 13px;
+    color: #57606a;
+    font-family: sans-serif;
+
+}
+&__link {
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration-line: none;
+    color: #0969DA;
+    font-size: 12px;
+
+}
+
+}
+//account
+.account {
+    border: 1px solid gainsboro;
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    &__title {
+        font-size: 14px;
+        font-family: sans-serif;
+        color: #57606a
+    }
+    &__link {
+        font-size: 14px;
+        font-family: sans-serif;
+        color: #0969DA;
+        text-decoration: none;
+    }
+    &__link:hover{
+        text-decoration-line: underline;
+    }
+}
+//links 
+.links {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    &__link {
+        font-size: 12px;
+        text-decoration: none;
+        color: #0969DA;
+    }
+    &__link:hover {
+        text-decoration-line: underline;
+    }
+    &__new {
+        font-size: 12px;
+        text-decoration: none;
+        color: #57606a;
+    }
+    &__new:hover {
+        text-decoration-line: underline;
+        color: #0969DA;
+        } 
+
+}
